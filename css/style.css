@@ -76,3 +76,16 @@ body {
   -ms-transform: scaleX(0.5);
   -o-transform: scaleX(0.5);
 }
+
+.navbar .navbar-extra a {
+  color: white;
+  margin: 0 0.5rem;
+}
+
+.navbar .navbar-extra a:hover {
+  color: #b6895b;
+}
+
+#hamburger-menu {
+  display: none;
+}
