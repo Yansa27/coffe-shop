@@ -89,3 +89,14 @@ body {
 #hamburger-menu {
   display: none;
 }
+
+/* hero section */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url('../img/coffe 1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
