@@ -26,6 +26,7 @@
     -moz-transition: 0.3s;
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
+   
 }
   .navbar .navbar-nav a {
     display: block;
@@ -39,6 +40,18 @@
   .navbar .navbar-nav.active {
     right: 0;
   }
+
+  .navbar .navbar-nav a::after {
+    transform-origin: 0 0;
+  }
+
+  .navbar .navbar-nav a:hover::after {
+    transform: scaleX(0.2);
+    -webkit-transform: scaleX(0.2);
+    -moz-transform: scaleX(0.2);
+    -ms-transform: scaleX(0.2);
+    -o-transform: scaleX(0.2);
+}
 }
 /* handphone */
 @media (max-width: 450px) {
