@@ -155,7 +155,7 @@ body {
 
 /* about section */
 .about {
-  padding: 10rem 7% 1.4rem;
+  padding: 7rem 7% 1.4rem;
 }
 
 .about h2 {
@@ -166,4 +166,11 @@ body {
 
 .about h2 span {
   color: #b6895b;
+}
+
+.about .about-img img {
+  background: url(../img/about.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
